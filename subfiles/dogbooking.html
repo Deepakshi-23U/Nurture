@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccination Booking</title>
+    <link rel="stylesheet" href="dogbooking.css">
+</head>
+<body>
+    <header>
+        <h1>Vaccination Booking</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form action="booking_confirmation.php" method="post">
+                <h2>Discovery Pet Clinic</h2>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="pet_name">Pet's Name:</label>
+                <input type="text" id="pet_name" name="pet_name" required><br>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required><br>
+                <input type="submit" value="Book Appointment">
+            </form>
+            <div class="map">
+                <img src="/photos/dogmap.jpeg" alt="Vet Clinic Location Map">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nurture</p>
+    </footer>
+</body>
+</html>
