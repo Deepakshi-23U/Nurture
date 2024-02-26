@@ -33,6 +33,5 @@ Book Appointment:
 
 
 Created By:
-![image](https://github.com/Deepakshi-23U/Nurture/assets/124867045/7e6c3794-8935-4907-b92c-9b043e213e1a) ![image](https://github.com/Deepakshi-23U/Nurture/assets/124867045/77c0132e-39c1-4f65-826b-a51e3a9b096e)
-         ![image](https://github.com/Deepakshi-23U/Nurture/assets/124867045/8c8e8473-a11e-45e2-a154-c7ec7403f1b5)
+Deepakshi Ujjwal    Devansh Gupta    Avni Amit Kumar
 
