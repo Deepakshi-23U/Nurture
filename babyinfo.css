@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  
+  }
+  body {
+    margin-top:0;
+    padding:0;
+    /* display: flex; */
+    justify-content:center;
+    align-items:center;
+    
+    background:lavender;
+  }
+  header{
+    background-color: aliceblue;
+    height: 50px;
+    width: 100vw;
+  }
+  
+  
+  /*ul{
+    margin:0;
+    padding:15;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    padding:5px;
+    font-size:18px;
+    font-family: sans-serif;
+    color:rebeccapurple;
+    text-transform:uppercase;
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#9161c1;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }*/
+  
+  
+  .container {
+    background: #ffbdc9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    background: #333;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: lavender;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+  }
+  nav ul li::after {
+    content: "";
+    background: #f44566;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+  }
+  nav ul li:hover {
+    color: #fff;
+  }
+  nav ul li:hover::after {
+    top: 50%;
+    opacity: 1;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color:lavender;
+  }
+  
+  
+  
+  
+  .carousel {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    top:40px;
+  }
+  
+  /* Styling for individual slides */
+  .slide {
+    width: 100%;
+    display: none;
+  }
+  .slide img{
+    width:100%;
+    height: 75vh;
+  }
+  
+  /* Styling for navigation dots */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  
+  /* kutte ki vaccination ka section */
+  .secimg{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width:540px; /* you can use % */
+    height: auto;max-width: 100%;
+  
+  }
+  .secinner{
+    display: flex;
+    padding: auto;
+    font-size: 1.5 rem;
+    margin: 10px;
+  }
+  .secinner p{
+    margin: 10px;
+  }
+  .sechead{
+    margin: auto;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #4b5fba;
+  }
+  .learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #814bba;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #E0B0FF;
+  }
+
+  #preg{
+    width:500px;
+    height:400px;
+  }
+  
